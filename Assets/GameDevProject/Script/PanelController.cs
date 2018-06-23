@@ -19,7 +19,7 @@ public class PanelController : MonoBehaviour {
 
         spriteRend = GetComponent<SpriteRenderer>();
         top = CameraScreen.current.ScreenSize.y - spriteRend.bounds.size.y;
-        bottom = -CameraScreen.current.ScreenSize.y;
+		bottom = -CameraScreen.current.ScreenSize.y + spriteRend.bounds.size.y;
         left = -CameraScreen.current.ScreenSize.x + spriteRend.bounds.size.x/2;
         right = CameraScreen.current.ScreenSize.x - spriteRend.bounds.size.x / 2;
     }
@@ -40,6 +40,7 @@ public class PanelController : MonoBehaviour {
      
         Vector3 move = new Vector3(horizontalVal, verticalVal, 0);
     //    body.velocity += move;
-        transform.position += move * speed * Time.deltaTime;
+        //transform.position += move * speed * Time.deltaTime;
+		transform.Translate(move * speed * Time.deltaTime);
     }
 }
