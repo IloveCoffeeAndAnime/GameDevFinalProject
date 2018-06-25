@@ -69,7 +69,6 @@
      <Compile Include="Assets\GameDevProject\Script\SoundManager.cs" />
      <Compile Include="Assets\GameDevProject\Script\SpritesGenerator.cs" />
      <Compile Include="Assets\GameDevProject\Script\gameController.cs" />
-     <None Include="Assets\ColorfulButtons\Credits.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
