@@ -1,11 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameDevProject\Script\MusicController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameDevProject\Script\BadFlyingGhostController.cs">
     <Files>
       <File FileName="Assets\GameDevProject\Script\FollowLightScript.cs" Line="1" Column="1" />
       <File FileName="Assets\GameDevProject\Script\BadFlyingGhostController.cs" Line="1" Column="1" />
-      <File FileName="Assets\GameDevProject\Script\LanternController.cs" Line="1" Column="1" />
-      <File FileName="Assets\GameDevProject\Script\MusicController.cs" Line="44" Column="2" />
+      <File FileName="Assets\GameDevProject\Script\gameController.cs" Line="33" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
